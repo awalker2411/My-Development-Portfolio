@@ -60,6 +60,7 @@ h2{
     padding-right: 40px;
     min-width: 20%;
     max-width: 20%;
+    font-size: 40px;
 }
 
 .aboutMe { 
@@ -99,10 +100,46 @@ h2{
     background-size: cover;
     background-position: center;
     opacity: 0.5;
+    margin: 20px;
+    font-weight: bolder;
+    width: 1000px;
+}
+
+.myAppsView:hover{
+    filter: brightness(150%);
 }
 
 .horiseon{
     background-image: url(./digital-marketing-meeting.jpg);
+}
+
+.coe{
+    background-image: url(./Final\ Logo.jpg);
+}
+
+.brute{
+    background-image: url(./Bulwark\ A2.png);
+}
+
+.shadowblade{
+    background-image: url(./Shadowblade_Traits.png);
+}
+
+.dreadknight{
+    background-image: url(./tweet.png);
+}
+
+.contactInfo{
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.myEmail{
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 1.6;
+    width: 90%;
 }
 
 
