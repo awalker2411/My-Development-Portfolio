@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 
-:root{
-    
+:root {
+    --primary: #233d8c;
+    --secondary: #81848f;
+    --pop: #873636;
 }
 
 header{
@@ -38,18 +40,42 @@ header nav ul li {
     border: solid;
 }
 
-main{
-    
+.myFace {
+    background-image: url("anthonyWalker.png");
+    background-size: 50%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    height: 900px;
+    background-position: top;
 }
 
-.aboutMe{
-    display: inline-block;
+h2{
+    border-right: 5px solid var(--pop);
+    min-height: 100%;
+    text-align: right;
+    padding-right: 40px;
+    min-width: 20%;
+    max-width: 20%;
 }
 
-.aboutMe img{
-    scale: 50%;
-    align-self: center;
-    position: static;
+.aboutMe { 
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 30px;
 }
+
+.aboutMe p{
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 1.6;
+    width: 90%;
+}
+
+
+
 
 
