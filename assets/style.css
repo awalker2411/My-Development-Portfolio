@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: burlywood;
 }
 
 :root {
-    --primary: #233d8c;
-    --secondary: #81848f;
-    --pop: #873636;
+    --primary: lightblue;
+    --secondary: grey;
+    --line: crimson;
 }
 
 header{
@@ -49,11 +50,11 @@ header nav ul li {
     flex-wrap: wrap;
     background-repeat: no-repeat;
     height: 900px;
-    background-position: top;
+    background-position: center;
 }
 
 h2{
-    border-right: 5px solid var(--pop);
+    border-right: 5px solid var(--line);
     min-height: 100%;
     text-align: right;
     padding-right: 40px;
@@ -73,6 +74,35 @@ h2{
     padding: 0 30px;
     line-height: 1.6;
     width: 90%;
+}
+
+.myApps{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.myAppsPreview{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.myAppsView{
+    border: solid;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+.horiseon{
+    background-image: url(./digital-marketing-meeting.jpg);
 }
 
 
