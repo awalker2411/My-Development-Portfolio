@@ -103,10 +103,12 @@ h2{
     margin: 20px;
     font-weight: bolder;
     width: 1000px;
+    text-align: center;
 }
 
 .myAppsView:hover{
     filter: brightness(150%);
+    opacity: 1.0;
 }
 
 .horiseon{
@@ -135,13 +137,31 @@ h2{
     justify-content: center;
 }
 
-.myEmail{
-    font-size: 20px;
-    padding: 0 30px;
-    line-height: 1.6;
-    width: 90%;
+.contactInfoDisplay{
+    font-size: 40px;
 }
 
+.contactInfoText{
+    margin: 20px;
+}
+
+footer{
+    display: block;
+    padding-top: 100px;
+    text-align: center;
+    height: 200px;
+
+}
+
+h3{
+    font-size: 30px;
+    margin: 10px;
+}
+
+h4{
+    font-size: 20px;
+    margin: 10px;
+}
 
 
 
