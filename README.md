@@ -29,7 +29,7 @@ A General Overview of Myself and my Applications
 <br>The page ends with a "Contact Me" section, which details ways to get in touch with me through various means.
 
 Live URL: https://awalker2411.github.io/My-Development-Portfolio/
-GitHub Repository URL: https://github.com/awalker2411/My-Development-Portfolio
+<br>GitHub Repository URL: https://github.com/awalker2411/My-Development-Portfolio
 
 Thank you!
 
