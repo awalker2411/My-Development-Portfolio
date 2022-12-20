@@ -28,4 +28,11 @@ A General Overview of Myself and my Applications
 <br>After, a catalogue of my applications (some still to come!)
 <br>The page ends with a "Contact Me" section, which details ways to get in touch with me through various means.
 
+Live URL:
+GitHub Repository URL: https://github.com/awalker2411/My-Development-Portfolio
+
+Thank you!
+
+
+
 MIT License
