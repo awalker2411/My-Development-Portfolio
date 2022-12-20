@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+header {
+    display: block;
     list-style: none;
     background-color: lightskyblue;
+    justify-content: center;
+    align-content: center;
 }
 
 h1 {
@@ -17,15 +17,15 @@ h1 {
     margin-left: 30px;
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: center;
     list-style: none;
     padding-right: 10px;
+    justify-content: center;
 }
 
 header nav ul li {
@@ -37,26 +37,22 @@ header nav ul li {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-main{
+main {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: lavender;
 }
 
 .myFace {
     background-image: url("anthonyWalker.png");
-    background-size: 50%;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    background-size: 30%;
     background-repeat: no-repeat;
-    height: 900px;
+    height: 650px;
     background-position: center;
     background-color: lavender;
 }
 
-h2{
-    border-right: 10px solid crimson;
+h2 {
+    border-right: 5px solid crimson;
     min-height: 100%;
     text-align: right;
     padding-right: 30px;
@@ -69,31 +65,33 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: stretch;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.aboutMe p{
+.aboutMe p {
     font-size: 26px;
     padding: 0 35px;
     line-height: 1.5;
 }
 
-.myApps{
-    padding: 30px 0;
+.myApps {
     display: flex;
     justify-content: space-between;
 }
 
-.myAppsPreview{
+.myAppsPreview {
     height: 500px;
     display: flex;
+    flex-wrap: wrap;
     width: 78%;
 }
 
-.myAppsView{
+.myAppsView {
     border: solid;
     color: black;
     display: flex;
+    flex-wrap: wrap;
     background-size: cover;
     background-position: center;
     opacity: 0.5;
@@ -103,47 +101,49 @@ h2{
     align-items: flex-end;
 }
 
-.myAppsView:hover{
+.myAppsView:hover {
     filter: brightness(150%);
     opacity: 1.0;
 }
 
-.horiseon{
+.horiseon {
     background-image: url(./digital-marketing-meeting.jpg);
     width: 200%;
 }
 
-.coe{
+.coe {
     background-image: url(./Final\ Logo.jpg);
 }
 
-.brute{
+.brute {
     background-image: url(./Bulwark\ A2.png);
 }
 
-.shadowblade{
+.shadowblade {
     background-image: url(./Shadowblade_Traits.png);
 }
 
-.dreadknight{
+.dreadknight {
     background-image: url(./tweet.png);
 }
 
-.contactInfo{
+.contactInfo {
     padding: 30px 0;
     display: flex;
     justify-content: center;
 }
 
-.contactInfoDisplay{
+.contactInfoDisplay {
     font-size: 40px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.contactInfoText{
+.contactInfoText {
     margin: 20px;
 }
 
-footer{
+footer {
     display: block;
     padding-top: 100px;
     text-align: center;
@@ -152,18 +152,119 @@ footer{
 
 }
 
-h3{
+h3 {
     font-size: 30px;
     margin: 10px;
     background-color: lavender;
     text-align: center;
 }
 
-h4{
+h4 {
     font-size: 20px;
     margin: 10px;
 }
 
+@media screen and (max-width: 2148px) {
+.myFace {
+    background-size: 35%;
+}
+}
+
+@media screen and (max-width: 2148px) {
+.myFace {
+    background-size: 40%;
+}
+}
+
+@media screen and (max-width: 1720px) {
+.myFace {
+    background-size: 50%;
+}
+}
+
+@media screen and (max-width: 1468px) {
+.contactInfoText {
+    font-size: 80%;
+}
+}
+
+@media screen and (max-width: 1234px) {
+.contactInfoText {
+    font-size: 70%;
+}
+
+.myFace {
+    background-size: 60%;
+}
+}
+
+@media screen and (max-width: 1142px) {
+.myApps h2 {
+    font-size: 230%;
+}
+}
+
+@media screen and (max-width: 1045px) {
+.myApps h2 {
+    font-size: 210%;
+}
+}
+
+@media screen and (max-width: 945px) {
+.myApps h2 {
+    font-size: 190%;
+}
+}
+
+@media screen and (max-width: 865px) {
+.myApps h2 {
+    font-size: 170%;
+}
+}
+
+@media screen and (max-width: 765px) {
+.myApps h2 {
+    font-size: 150%;
+}
+
+.contactInfo h2 {
+    font-size: 230%;
+}
+}
+
+@media screen and (max-width: 690px) {
+.myApps h2 {
+    font-size: 130%;
+}
+
+.contactInfo h2 {
+    font-size: 210%;
+}
+}
+
+@media screen and (max-width: 600px) {
+.myApps h2 {
+    font-size: 110%;
+}
+
+.contactInfo h2 {
+    font-size: 190%;
+}
+}
+
+@media screen and (max-width: 480px) {
+.myApps h2 {
+    font-size: 90%;
+}
+    
+.contactInfo h2 {
+    font-size: 150%;
+}
+
+.aboutMe h2 {
+    font-size: 200%;
+}
+}
 
 
 
