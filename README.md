@@ -22,7 +22,7 @@ A General Overview of Myself and my Applications
 <br>THEN I am presented with a responsive layout that adapts to my viewport
 
 *My Application*
-This project represents my achievements in coding and general information about me.
+<br>This project represents my achievements in coding and general information about me.
 <br>A picture of myself is presented at the top of the page, but below a navigation bar for my user.
 <br>The page then proceeds to the 'About Me' section, giving a brief self-description.
 <br>After, a catalogue of my applications (some still to come!)
